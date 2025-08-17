@@ -36,11 +36,25 @@ def update_counter(visitor_ip, user_agent):
     
     save_data(data)
     return data
+    
+def generate_svg(count, last_visit):
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50">
+        <rect width="300" height="50" fill="#1a1a1a" rx="10" ry="10"/>
+        <text x="150" y="20" font-size="16" fill="#00ff99" text-anchor="middle">
+            👀 Visitors: {count}
+        </text>
+        <text x="150" y="40" font-size="12" fill="#ffffff" text-anchor="middle">
+            Last Visit: {last_visit}
+        </text>
+    </svg>"""
 
-# Example usage
 if __name__ == "__main__":
-    # Simulate a visitor
-    visitor_ip = "192.168.1.100"
-    user_agent = "Mozilla/5.0"
+    data = load_data()
+    visitor_ip = "0.0.0.0"       # placeholder (GitHub Actions won't give real IP)
+    user_agent = "GitHub Action" # placeholder
     stats = update_counter(visitor_ip, user_agent)
-    print(stats)
+
+    # Generate SVG
+    with open("counter.svg", "w") as f:
+        f.write(generate_svg(stats["visits"], stats["last_visited"]))
+
