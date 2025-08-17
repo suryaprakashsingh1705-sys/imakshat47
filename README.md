@@ -66,17 +66,3 @@
 ---
 
 ⭐️ From [imakshat47](https://github.com/imakshat47)
-
-
-def generate_svg(count):
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="150" height="30">
-        <rect width="150" height="30" fill="black"/>
-        <text x="75" y="20" font-size="14" fill="white" text-anchor="middle">
-            👀 Visitors: {count}
-        </text>
-    </svg>"""
-
-if __name__ == "__main__":
-    data = load_data()
-    with open("counter.svg", "w") as f:
-        f.write(generate_svg(data["visits"]))
