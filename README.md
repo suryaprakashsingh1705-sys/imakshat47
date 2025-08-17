@@ -4,7 +4,7 @@
 <h3 align="center">M.Tech CSE (Analytics) @ NIT Delhi | Ex-Accenture | Data Engineer & Cloud Enthusiast</h3>
 
 <p align="center">
-  <a href="mailto:242211003@nitdelhi.ac.in"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="mailto:imakshat47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://github.com/imakshat47"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://imakshat47.github.io"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
   <a href="https://linkedin.com/in/imakshat47"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -57,7 +57,7 @@
 ## 🌐 Let's Connect  
 
 <p align="center">
-  <a href="mailto:242211003@nitdelhi.ac.in"><img src="https://img.shields.io/badge/-Email Me-red?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:imakshat47@gmail.com"><img src="https://img.shields.io/badge/-Email Me-red?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://linkedin.com/in/imakshat47"><img src="https://img.shields.io/badge/-Connect on LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="https://github.com/imakshat47"><img src="https://img.shields.io/badge/-GitHub Profile-black?style=for-the-badge&logo=github"></a>
   <a href="https://imakshat47.github.io"><img src="https://img.shields.io/badge/-Portfolio Website-47CCCC?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
@@ -65,4 +65,4 @@
 
 ---
 
-⭐️ From [imakshat47](https://github.com/imakshat47)
+⭐️ From [imakshat47](https://imakshat47.github.io/)
