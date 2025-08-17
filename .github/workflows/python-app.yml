@@ -4,14 +4,12 @@
 name: 🔄 Update Visitor Counter
 
 on:
-  # Trigger manually
-  workflow_dispatch:
-  # Run every hour (adjust as needed)
-  schedule:
+  workflow_dispatch:    # manual trigger
+  schedule:             # automatic trigger every hour
     - cron: "0 * * * *"
 
 permissions:
-  contents: write   # allow committing back to repo
+  contents: write       # needed for pushing changes
 
 jobs:
   update-counter:
@@ -21,26 +19,18 @@ jobs:
       # 1. Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
       # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-          cache: "pip"
 
-      # 3. Install dependencies if requirements.txt exists
-      - name: Install dependencies
-        run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      # 4. Run visitor counter script
+      # 3. Run counter.py
       - name: Run counter.py
         run: python counter.py
 
-      # 5. Check if counter.json or counter.svg changed
+      # 4. Check if files changed
       - name: Check for changes
         run: |
           git config --global user.name "github-actions[bot]"
@@ -51,7 +41,7 @@ jobs:
             exit 0
           fi
 
-      # 6. Commit & push changes
+      # 5. Commit & push
       - name: Commit and push
         run: |
           git commit -m "🔄 Update visitor counter [skip ci]"
