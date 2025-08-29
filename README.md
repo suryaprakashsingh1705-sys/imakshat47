@@ -1,7 +1,7 @@
 ![Visitor Count](https://raw.githubusercontent.com/imakshat47/imakshat47/main/counter.svg)
 
 <h1 align="center">👋 Hi, I'm Akshat Kumar</h1>
-<h3 align="center">M.Tech CSE (Analytics) @ NIT Delhi | Ex-Accenture | Data & Software Engineer</h3>
+<h3 align="center">STM Intern | M.Tech CSE (Analytics) @ NIT Delhi | Ex-Accenture Data Engineer | AI Enthusiast | Big Data, Cloud & ML Explorer</h3>
 
 <p align="center">
   <a href="mailto:imakshat47@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
