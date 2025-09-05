@@ -17,7 +17,7 @@ Experienced Data Engineer and Software Developer skilled in Python, C++, SQL, Ap
 **M.Tech, Computer Science \& Engineering (Analytics)**
 National Institute of Technology Delhi, India
 Aug 2024 – Jun 2026
-GPA: 8.8/10
+GPA: 8.6/10
 Relevant Courses: Operating Systems, Data Structures, Algorithms, AI/ML, Networking, Databases
 
 **B.Tech, Computer Science \& Engineering**
