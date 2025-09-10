@@ -1,12 +1,7 @@
 {
-    "visits": 533,
-    "last_visited": "2025-09-10T08:22:44.926642",
+    "visits": 534,
+    "last_visited": "2025-09-10T09:17:52.660133",
     "details": [
-        {
-            "ip": "0.0.0.0",
-            "user_agent": "GitHub Action",
-            "time": "2025-09-05T22:15:10.909757"
-        },
         {
             "ip": "0.0.0.0",
             "user_agent": "GitHub Action",
@@ -501,6 +496,11 @@
             "ip": "0.0.0.0",
             "user_agent": "GitHub Action",
             "time": "2025-09-10T08:22:44.926642"
+        },
+        {
+            "ip": "0.0.0.0",
+            "user_agent": "GitHub Action",
+            "time": "2025-09-10T09:17:52.660133"
         }
     ]
 }
