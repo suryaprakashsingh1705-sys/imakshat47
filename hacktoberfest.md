@@ -2,7 +2,7 @@
 
 > **A month-long celebration of open source organized by DigitalOcean**  
 > **Status:** Currently Active (October 1-31, 2025)  
-> **Time Remaining:** 28 days left to participate!
+> **Time Remaining:** 31 - (date_today(month=october)) days left to participate!
 
 ## 📅 Key Dates & Timeline
 
@@ -31,6 +31,7 @@
 - **Contribution types**: Code, documentation, translation, design, writing, tutorials
 
 ### Step 3: Contribute 💻
+```sh
 Basic contribution workflow
 git clone <repository-url>
 cd <repository-name>
@@ -40,7 +41,7 @@ Make your changes
 git add .
 git commit -m "Clear, descriptive commit message"
 git push origin your-feature-branch
-
+```
 Create Pull Request on GitHub/GitLab
 
 ### Step 4: Get Accepted ✅
